@@ -1,0 +1,19 @@
+{%extends "mainApp/wrapper.html"%}
+
+{% block content%} 
+<p>Проверка начало include (homepage)</p>
+{% include "mainApp/includes/some.html"%}
+<p>Проверка конец include (homepage)</p>
+<form>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Сюда вводить</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Введите чёнибудь">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">И сюда тоже</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="И Ещё чёнибудь">
+  </div>
+</form>
+просто в теле (homepage)
+
+{% endblock%}
